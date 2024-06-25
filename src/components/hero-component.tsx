@@ -16,8 +16,10 @@ export const HeroComponent = () => {
             <Reveal>
                 <div className='hero_detail'>
                     <p>Frontend developer with experience building responsive webpages with animations, carousels, scroll interactions and data visualizations. Proficient leveraging RESTful APIs and performing data transformations to populate the frontend from end point data. Experience also includes working with a variety of content management platforms and building reusable solutions for UI components. </p>
-                    <button className='hero_cta'>Let's Connect</button>
                 </div>
+            </Reveal>
+            <Reveal>
+                <button className='hero_cta'>Let's Connect</button>
             </Reveal>
         </div>
     )

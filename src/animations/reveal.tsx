@@ -33,7 +33,7 @@ export const Reveal: React.FC<RevealProps> = ({children, width = "fit-content" }
                 }}
                 initial="hidden"
                 animate={visibilityControl}
-                transition={{ duration: 0.5, delay: 0.40 }}
+                transition={{ duration: 0.5, delay: 0.30 }}
                 >
                 {children}
             </motion.div>
@@ -44,7 +44,7 @@ export const Reveal: React.FC<RevealProps> = ({children, width = "fit-content" }
                 }}
                 initial="hidden"
                 animate={slideControl}
-                transition={{ duration: 0.5, delay: 0.20 , ease: "easeIn" }}
+                transition={{ duration: 0.5, delay: 0.10, ease: "easeIn" }}
                 style={{
                     position: "absolute",
                     top: 4,
