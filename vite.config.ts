@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/bournecreative.github.io/react-text-animations/",
+  base: "/react-text-animations/",
   plugins: [react()],
 })
