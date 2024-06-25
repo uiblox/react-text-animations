@@ -1,0 +1,16 @@
+.reveal-link {
+    color: #FFF;
+    font-size: 120px;
+    text-decoration: none;
+    position: relative;
+    text-wrap: nowrap;
+    font-weight: bolder;
+    overflow: hidden;
+    line-height: 1;
+}
+
+.reveal-link-mirror {
+    position: absolute;
+    inset: 0;
+    z-index: 100;
+}
