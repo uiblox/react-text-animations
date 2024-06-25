@@ -1,4 +1,4 @@
-import { Reveal } from '../animations/reveal'
+import { Reveal } from '../animations/reveal/reveal'
 import './hero-component.scss'
 
 
