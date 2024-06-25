@@ -1,12 +1,11 @@
+import { HeroComponent } from "./components/hero-component"
+
 function App() {
 
-
   return (
-    <>
-      <div>
-        <h1>Ready Dev</h1>
-      </div>
-    </>
+      <main>
+        <HeroComponent />        
+      </main>
   )
 }
 
