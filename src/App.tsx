@@ -4,7 +4,9 @@ function App() {
 
   return (
       <main>
-        <HeroComponent />        
+        
+        <HeroComponent />
+        <div style={{height: '100vh'}}></div>
       </main>
   )
 }
